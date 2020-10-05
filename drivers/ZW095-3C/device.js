@@ -14,28 +14,28 @@ class ZW095 extends ZwaveDevice {
         this.registerCapability('measure_power', 'METER', {
             getOpts: {
                 getOnStart: true,
-				pollInterval: 30000,
+				pollInterval: 600000,
 			},
         });
 
         this.registerCapability('meter_power', 'METER', {
             getOpts: {
                 getOnStart: true,
-				pollInterval: 30000,
+				pollInterval: 600000,
 			},
         });
 
         this.registerCapability('measure_voltage', 'METER', {
             getOpts: {
                 getOnStart: true,
-				pollInterval: 30000,
+				pollInterval: 600000,
 			},
         });
 
         this.registerCapability('measure_current', 'METER', {
             getOpts: {
                 getOnStart: true,
-				pollInterval: 30000,
+				pollInterval: 600000,
 			},
         });
     }
